@@ -1,0 +1,72 @@
+
+.border{
+   
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: rgb(36, 34, 34);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox currently only supports scrollbar-color, not scrollbar-track-color */
+  /* You may need to use scrollbar-width for customizing the width */
+  /* For Firefox you can only set the scrollbar color, not the track */
+  /* You may want to change background and thumb colors */
+  /* For full Firefox support, you may need to use proprietary extensions like -moz- prefix */
+  * {
+    scrollbar-color: #333 #000;
+  }
+  
+  /* For Edge and IE */
+  /* Note: Edge Legacy (version < 79) doesn't support custom scrollbar styling */
+  /* Edge (version >= 79) supports scrollbar-color similar to Firefox */
+  /* For IE, you may need to use non-standard IE-specific properties */
+  /* For full IE support, you may need to use proprietary extensions like -ms- prefix */
+  *::-webkit-scrollbar {
+    display: none; /* hides the default scrollbar for WebKit browsers */
+  }
+  *::-ms-overflow-style {
+    display: none; /* hides the default scrollbar for IE and Edge */
+  }
+  * {
+    scrollbar-color: #333 #000; /* sets the scrollbar color and thumb color */
+    scrollbar-width: thin; /* adjusts the width of the scrollbar */
+  }
+  
